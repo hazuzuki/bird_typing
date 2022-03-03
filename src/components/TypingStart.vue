@@ -2,7 +2,6 @@
   <div class="content">
     <p>ただいまのカウント:{{ count }}</p>
     <p>残り時間:{{PassSec}}</p>
-    <p>{{ num }}</p>
     <img class="animal-img" :src="require(`@/assets/${num}.jpg`)">
     <p>{{ kata }}</p>
     <p class="type-word"><span class="done">{{ pressed }}</span>{{ roman2 }}</p>
@@ -75,11 +74,6 @@ watch: {
 
   .type-word {
     color: black;
-  }
-
-  .content {
-    padding: 30px;
-    text-align: center;
   }
 
   p {

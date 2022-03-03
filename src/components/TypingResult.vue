@@ -1,10 +1,10 @@
 <template>
     <div class="content">
-        <h1>帰宅</h1>
+        <h1>終わり</h1>
         <p class="sumcount">見つけた野鳥の数:{{ sumcount }}匹</p>
         <p class="sumcount">ミスタイプ数:{{ misscount }}回</p>
         <img src="@/assets/fukurou_yoru.png" alt="">
-        <div><a @click="reload" class="btn-square">再チャレンジ</a></div>
+        <div><a @click="reload" class="btn btn-big">再チャレンジ</a></div>
         <div class="share">
             <p class="find_animal">見つけた野鳥を報告する</p>
             <div class="icon-list">
@@ -41,24 +41,30 @@ export default {
 </script>
 
 <style>
-.btn-square {
-  font-size: 30px;
-  display: inline-block;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  background: green;/*ボタン色*/
-  color: #FFF;
-  border-bottom: solid 4px #627295;
-  border-radius: 3px;
-  cursor: pointer;
-}
-.btn-square:active {
-  /*ボタンを押したとき*/
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px);/*下に動く*/
-  border-bottom: none;/*線を消す*/
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #66AD22;/*ボタン色*/
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
+.btn:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn-big {
+    font-size: 30px;   
+}
+
+.btn-small {
+    font-size: 15px;
+}
 
 .content {
     text-align: center;

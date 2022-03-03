@@ -1,13 +1,13 @@
 <template>
   <div>
-    <header class="header_pc" v-if="$mq === 'pc'">
+    <header class="header_pc header" v-if="$mq === 'pc'">
         <div v-if="$mq === 'pc'">
-            <div class="title_pc">野鳥タイピングゲーム</div>
+            <div class="title_pc title">野鳥タイピングゲーム</div>
         </div>
     </header>
-    <header class="header_sp" v-if="$mq === 'sp'">
+    <header class="header_sp header" v-if="$mq === 'sp'">
         <div v-if="$mq === 'sp'">
-            <div class="title_sp">動物タイピングゲーム</div>         
+            <div class="title_sp title">動物タイピングゲーム</div>         
         </div>        
     </header>  
     <typingtop v-show="currentComponent === 'typingtop'" @gameStart="gameStart"></typingtop>
@@ -27,7 +27,7 @@ export default {
         return {
             currentComponent: "typingtop",
             key: '',
-            PassSec: 20, //ゲームの制限時間
+            PassSec: 10, //ゲームの制限時間
             typing : [{'name': 'スズメ', 'img': '@/assets/0.jpg'}, 
                 {'name': 'シロハラ', 'img': '@/assets/1.jpg'},
                 {'name': 'ルリビタキ', 'img': '@/assets/2.jpg'}, 
@@ -108,10 +108,6 @@ export default {
 </script>
 
 <style>
-.router-link-exact-active {
-    background-color: #9fc7e2 !important;
-}
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -128,35 +124,38 @@ template{margin:0px;}
 }
 
 body {
-    background-color: #f0d47f;
+    background-color: #e7f4f1;
+}
+
+.header {
+    background-color: #50C1E9;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .header_pc {
     height: 60px;
-    background-color: #007f00;
-    align-items: center;
     padding: 15px;
 }
 
 .header_sp {
     height: 40px;
-    background-color: #007f00;
-    align-items: center;
     padding: 10px;    
+}
+
+.title {
+    color: #ffffff;
+    text-align: left;
 }
 
 .title_pc {
     font-size: 30px;
-    color: white;
     height: 40px;
-    text-align: left;
 }
 
 .title_sp {
     font-size: 20px;
-    color: white;
     height: 20px;
-    text-align: left;
 }
 
 
