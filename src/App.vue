@@ -7,7 +7,7 @@
     </header>
     <header class="header_sp header" v-if="$mq === 'sp'">
         <div v-if="$mq === 'sp'">
-            <div class="title_sp title">動物タイピングゲーム</div>         
+            <div class="title_sp title">野鳥タイピングゲーム</div>         
         </div>        
     </header>  
     <typingtop v-show="currentComponent === 'typingtop'" @gameStart="gameStart"></typingtop>
@@ -35,7 +35,7 @@ export default {
                 {'name': 'ドバト', 'img': '@/assets/4.jpg'}, 
                 {'name': 'キジバト', 'img': '@/assets/5.jpg'}, 
                 {'name': 'イエスズメ', 'img': '@/assets/6.jpg'}, 
-                {'name': 'イカル', 'img': '@/assets/7.jpg'}, 
+                {'name': 'マガモ', 'img': '@/assets/7.jpg'}, 
                 {'name': 'エナガ', 'img': '@/assets/8.jpg'}, 
                 {'name': 'ハッカチョウ', 'img': '@/assets/9.jpg'}, 
                 {'name': 'ジョウビタキ', 'img': '@/assets/10.jpg'}, 
