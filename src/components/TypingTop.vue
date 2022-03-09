@@ -1,7 +1,7 @@
 <template>
     <div class="contents">
         <div class="content">
-            <img src="@/assets/bird_watching.png" alt="バードウオッチングの画像" width="40%" height="40%">
+            <img src="@/assets/bird_watching.png" alt="バードウオッチングの画像" width="30%" height="30%">
         </div>
         <div>
             <div v-if="$mq === 'pc'">
@@ -13,9 +13,10 @@
                             <p>あなたは、お散歩にでかけました。今日は、どんな野鳥に出会えるかな。</p>
                             <ol>
                                 <li>Enterを押すとゲームが開始します。</li>
-                                <li>制限時間は、10秒です。制限時間内にたくさんの野鳥を見つけてください。</li>
+                                <li>制限時間は、20秒です。制限時間内にたくさんの野鳥を見つけてください。</li>
                                 <li>ゲーム終了後、見つけた野鳥を一覧で確認できます。</li>
                             </ol>
+                            <p>※作者が見つけた鳥を追加しています。鳥は順次追加していきます。（現在の登録数：20匹）</p>
                     </div>
                 </div>
             </div>
@@ -35,6 +36,8 @@
             <div class="log">
                 <h2>更新履歴</h2>
                 <dl>
+                <dt>2022.3.9</dt>
+                <dd>「ルリビタキ（オス）、ホオジロ、キビタキ、カワラヒワ」を追加しました。</dd>
                 <dt>2022.3.2</dt>
                 <dd>野鳥タイピングゲームをリリースしました。</dd>
                 </dl>
@@ -164,16 +167,16 @@ p {
   border-top: 15px solid #ffffff;
 }
 
-.change_log > .content > dl {
+.change_log > .log > dl {
     text-align: left;
     line-height: 1.5em;
 }
 
-.change_log > .content > dl> dt {
+.change_log > .log > dl> dt {
     float: left;
 }
 
-.change_log > .content > dl > dd {
+.change_log > .log > dl > dd {
     margin-left: 80px;
 }
 
