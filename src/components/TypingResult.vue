@@ -9,7 +9,7 @@
             <p class="find_animal">見つけた野鳥を報告する</p>
             <div class="icon-list">
                 <img @click="link_twitter" src="@/assets/twitter_icon.png" alt="twitterアイコン" width="80px" height="80px"> 
-                <a href="https://social-plugins.line.me/lineit/share?url=https://hazuzuki.github.io/animal_typing/" target="_blank" rel="nofollow"><img src="@/assets/line_icon.png" alt="lineアイコン" width="80px" height="80px"></a>
+                <a href="https://social-plugins.line.me/lineit/share?url=https://hazuzuki.github.io/bird_typing/" target="_blank" rel="nofollow"><img src="@/assets/line_icon.png" alt="lineアイコン" width="80px" height="80px"></a>
             </div>
         </div>
         <p class="find_animal">見つけた野鳥</p>
