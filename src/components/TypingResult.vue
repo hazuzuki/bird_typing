@@ -33,7 +33,7 @@ export default {
             this.$router.go(this.$router.currentRoute)
         },
         link_twitter() {
-            const dataUrl = "https://hazuzuki.github.io/animal_typing/"
+            const dataUrl = "https://hazuzuki.github.io/bird_typing/"
             window.open('https://twitter.com/share?text=' + this.sumcount + "匹の野鳥を見つけたよ。みんなも遊んでみてね。" + "&hashtags=野鳥タイピングゲーム" +'&url=' + dataUrl );
         }
     }
