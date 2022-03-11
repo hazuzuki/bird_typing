@@ -26,10 +26,10 @@
                     こちらは、パソコン専用のサイトです。<br>
                     パソコンからアクセスしてください。<br>
                 </div>
-                <!-- <div class="content video">
+                <div class="content video">
                     <div class="video-description">▽ゲームのプレイ動画はこちら</div> 
-                    <iframe width="100%" src="https://www.youtube.com/embed/3JgsTd0hHKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div> -->
+                    <iframe width="100%" src="https://www.youtube.com/embed/uBy7YtnLMbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <div class="content change_log">
@@ -94,7 +94,7 @@ h2 {
 .video {
     margin-top: 30px;
     padding: 15px;
-    background-color: #a2ce82;
+    background-color: #ffffff;
 }
 
 .video-description {
