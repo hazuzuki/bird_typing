@@ -49,6 +49,11 @@ export default {
                 {'name': 'ホオジロ', 'img': '@/assets/18.jpg'},
                 {'name': 'アオジ', 'img': '@/assets/19.jpg'},
                 {'name': 'カワラヒワ', 'img': '@/assets/20.jpg'},
+                {'name': 'イソヒヨ', 'img': '@/assets/21.jpg'},
+                {'name': 'アトリ', 'img': '@/assets/22.jpg'},
+                {'name': 'シジュウカラ', 'img': '@/assets/23.jpg'},
+                {'name': 'ウグイス', 'img': '@/assets/24.jpg'},
+
                 ]
             ,kata: "",
             roman: "",
