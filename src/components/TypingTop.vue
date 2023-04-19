@@ -53,14 +53,14 @@
         <div class="content profile">
             <h2>ゲームについて</h2>
                 <div>
-                    <p>ゲームのご意見・ご感想は下記のtwitterまで！</p>
+                    <p class="message">ゲームのご意見・ご感想は下記のtwitterまで！</p>
                     <a target="_blank" href="https://twitter.com/animal_typ"><img class="icon" src="@/assets/twitter_icon.png" alt="アイコン" width="80px" height="80px"></a>
                 </div>
         </div>
         <div class="content anothor_game">
             <h2>関連のゲーム</h2>
                 <div>
-                    <p>こちらも遊んでみてね</p>
+                    <p class="message">こちらも遊んでみてね</p>
                     <div><img class="icon" src="@/assets/animal_typ.png" alt="アイコン" width="300px"></div>
                     <a class="btn btn-small" target="_blank" href="https://hazuzuki.github.io/animal_typing/">動物タイピングゲーム</a>
                 </div>
@@ -110,8 +110,12 @@ h2 {
 }
 
 p {
-    font-size: 1.2em !important;
+    font-size: 35px;
     margin-bottom: 10px;
+}
+
+.message{
+    font-size: 1.2em;
 }
 
 
