@@ -27,7 +27,7 @@ export default {
         return {
             currentComponent: "typingtop",
             key: '',
-            PassSec: 20, //ゲームの制限時間
+            PassSec: 30, //ゲームの制限時間
             typing : [{'name': 'メジロ', 'img': '@/assets/0.jpg'}, 
                 {'name': 'ヒドリガモ', 'img': '@/assets/1.jpg'},
                 {'name': 'エナガ', 'img': '@/assets/2.jpg'}, 

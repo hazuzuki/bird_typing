@@ -61,7 +61,7 @@
             <h2>関連のゲーム</h2>
                 <div>
                     <p>こちらも遊んでみてね</p>
-                    <div><img class="icon" src="@/assets/animal_typ.png" alt="アイコン" width="20%" height="20%"></div>
+                    <div><img class="icon" src="@/assets/animal_typ.png" alt="アイコン" width="300px"></div>
                     <a class="btn btn-small" target="_blank" href="https://hazuzuki.github.io/animal_typing/">動物タイピングゲーム</a>
                 </div>
         </div>
@@ -110,7 +110,7 @@ h2 {
 }
 
 p {
-    font-size: 35px !important;
+    font-size: 1.2em !important;
     margin-bottom: 10px;
 }
 
@@ -206,6 +206,9 @@ p {
     margin-bottom: 10px;
 }
 
+.btn {
+    margin-top: 10px;
+}
 
 
 
